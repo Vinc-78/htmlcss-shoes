@@ -22,11 +22,59 @@ header ul li {
 /* Set stile dei link iso tasti circolari */
 header ul li a {
     text-decoration: none;
-    background-color:red;
-    color:white;
+    background-color:white;
+    color:black;
     padding: 20px 25px;
     margin: 0px 1vh;
     border-radius: 50%;
     font-size: 20px;
     
 } 
+
+/* Inizio set delle tre vetrine */
+/* dimensione e colore */
+
+.vetrina {    
+    height: 100vh;
+    position: relative;
+}
+
+.vetrina.uno {
+    background-color: red;
+}
+
+.vetrina.due {
+    background-color:green;
+}
+
+.vetrina.tre {
+    background-color:yellow;
+}
+
+/* centro i modelli  il 60% per dare più spazio al titolo 
+in y quindi alzo la posizione dell'imm. della scarpa*/
+
+.vetrina img {
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-60%);
+}
+
+h1 {
+    width: 40%; /* Proporzionato dimensione del h1 e font per far andare a capo*/
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: yellow;
+    font-size: 30px;
+}
+
+.vetrina.tre h1 {
+    color:green;
+}
+
+
