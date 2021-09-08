@@ -70,7 +70,7 @@ h1 {
     transform: translateX(-50%);
     text-align: center;
     color: yellow;
-    font-size: 30px;
+    font-size: 35px; /* con 35 di size e 40 di width va a capo a "di" */
 }
 
 .vetrina.tre h1 {
